@@ -1,5 +1,5 @@
 num1 = 1;
-if [num1 > 0] {
-  echo "Hola";
-}
-exit;
+if [[ num1 > 1 ]]; then
+  echo "Hola Mundo"
+fi
+echo "Hola prueba";
